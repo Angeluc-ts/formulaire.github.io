@@ -1,0 +1,80 @@
+body{
+    background: fixed;
+    background-color: #444;
+    color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.titre{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.titre img{
+    width: 620px;
+    height: 115px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.tete{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(58, 57, 57);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    mix-blend-mode: multiply;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.exemple   {
+    width: 100%;
+    height: auto;
+    display:block ;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    text-align: center;
+    background-image:url("formulaire2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top: 15%;
+}
+label{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+input{
+    background-color: #444;
+    color: white;
+    border: none;
+}
+.check{
+    justify-content: center;
+    background-size:cover;
+
+}
+.information{
+    width: 100%;
+    height: auto;
+    display:block ;
+    margin-top: 5%;
+    line-height: 30px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 1px;
+
+}
